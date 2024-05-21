@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grpc-proto-test"
+version = "0.0.1"
+authors = [
+  {name = "Pradyun Gedam", email = "ck@gmail.com"},
+]
+description = "A package that meows"
+requires-python = ">=3.8"
+
+[tool]
+[tool.setuptools]
+packages = ["pt"]
+
