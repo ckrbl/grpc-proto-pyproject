@@ -1,5 +1,5 @@
 all:
-	@python3 -m build -n .
+	python3 -m build -n
 
 clean:
-	@rm -rf dist UNKNOWN*
+	@rm -rf dist *.egg-info
