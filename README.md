@@ -1,3 +1,3 @@
 # Python Pyproject with grpc and protobuf
 
-This project is currently a WIP and resolving many issues with it
+This is an exemplar package to show how to create a pyproject that uses protobufs
