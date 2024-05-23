@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools"]
+requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -20,4 +20,3 @@ dependencies = ["click"]
 [tool]
 [tool.setuptools]
 packages = ["pt.client", "pt.server"]
-
