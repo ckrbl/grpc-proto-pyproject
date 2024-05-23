@@ -3,13 +3,13 @@ requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pt"
+name = "gptest"
 version = "0.1.0"
 authors = [
-  {name = "Chris", email = "ck@gmail.com"},
+  {name = "Chris", email = "99300381+ckrbl@users.noreply.github.com"},
 ]
-description = "A package that meows"
-requires-python = ">=3.6"
+description = "An exemplar package showing a client and server communicating with GRPC and Protobufs"
+requires-python = ">=3.7"
 classifiers = [
   "Programming Language :: Python :: 3",
   "License :: OSI Approved :: MIT License",
@@ -19,4 +19,4 @@ dependencies = ["click"]
 
 [tool]
 [tool.setuptools]
-packages = ["pt.client", "pt.server"]
+packages = ["gptest.client", "gptest.server"]
