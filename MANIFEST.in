@@ -1,0 +1,1 @@
+include gptest/proto/*.proto
