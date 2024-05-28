@@ -2,7 +2,15 @@ syntax = "proto3";
 
 package gptest;
 
-message Sum {
+message SumReq {
     int32 a = 1;
     int32 b = 2;
+}
+
+message SumRep{
+    int32 c = 1;
+}
+
+service MyService{
+    rpc GetSum(SumReq) returns (SumRep);
 }
